@@ -3,7 +3,6 @@ title = "Homelab"
 page_template = "page.html"
 +++
 
-# HomeLab
 
 ## [Jellyfin](http://192.168.1.111:8096) [Redlib](http://192.168.1.111:9001) [ErsatzTV](http://192.168.1.111:8409) [Qbittorrent](http://192.168.1.111:9002)
 
