@@ -4,7 +4,7 @@ page_template = "page.html"
 +++
 
 
-## [Jellyfin](http://192.168.1.111:8096) [Redlib](http://192.168.1.111:9001) [ErsatzTV](http://192.168.1.111:8409) [Qbittorrent](http://192.168.1.111:9002)
+## [Jellyfin](https://jellyfin.ankitn.duckdns.org) [Redlib](https://redlib.ankitn.duckdns.org) [ErsatzTV](https://etv.ankitn.duckdns.org) [Qbittorrent](https://qt.ankitn.duckdns.org)
 
 
 Only work on same network of the server
