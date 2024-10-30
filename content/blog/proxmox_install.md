@@ -45,7 +45,7 @@ Open /etc/modules and add
     vfio_pci
     vfio_virqfd
     
-# Modules required for Intel GVT-g Split
+    # Modules required for Intel GVT-g Split
     kvmgt
 
 ### 2.3 To update configuration
