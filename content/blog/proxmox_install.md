@@ -50,8 +50,8 @@ Open /etc/modules and add
 
 ### 2.3 To update configuration
 
-Run `update-initramfs -u -k all`
+Run `update-initramfs -u -k all` and `proxmox-boot-tool refresh`
 
-and `reboot`
+then `reboot`
 
 
