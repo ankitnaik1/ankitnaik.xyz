@@ -54,4 +54,28 @@ Run `update-initramfs -u -k all` and `proxmox-boot-tool refresh`
 
 then `reboot`
 
+## 3. Install & Enable Powertop at startup
+
+Install powertop with
+
+`apt install powertop`
+
+Create a file /etc/systemd/system/powertop.service with text editor
+
+    [Unit]
+    Description=Powertop Auto-Tune
+    
+    [Service]
+    Type=oneshot
+    ExecStart=/usr/sbin/powertop --auto-tune
+    RemainAfterExit=yes
+    
+    [Install]
+    WantedBy=multi-user.target
+
+Save & exit
+
+Enable & start unit with 
+
+`systemctl enable --now powertop.service`
 
